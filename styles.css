@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+}
+h1{
+    /* color: blue; */
+}
+#second{
+   color: red; 
+}
+.third{
+    color: green;
+}
+p{
+    color: purple;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-decoration: underline ;
+    line-height: 1.7;
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 80px;
+    letter-spacing: 0.5px;
+    word-spacing: 5px;
+    white-space: initial;
+}
+
+/* This is a css rule for box1  */
+.box1{
+    height: 600px;
+    width: 600px;
+    background-image: url('/images/orange.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* filter: grayscale(1); */
+    /* opacity: 80%; */
+}
+
+
+p{
+    color: red;
+    font-weight: 900;
+
+}
+.box2{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    /* margin: 30px 25px 20px 25px; */
+    /* margin: 30px 25px 20px; */
+    /* margin: 30px 25px; */
+    margin: 30px;
+
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px; */
+
+    /* padding: 30px 25px 20px 25px; */
+    /* padding: 30px 25px 20px; */
+    /* padding: 30px 25px; */
+    padding: 30px ;
+
+   /* border: 15px;
+    border-style: solid;
+    border-color: black; */
+
+    border: 15px solid black;
+    border-radius: 50%;
+    /* border-bottom-left-radius: 25px; */
+    /* border-top: 15px solid black; */
+    
+}
+.box3{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    margin:  auto ;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none ;
+}
+
+.first, .second, .third{
+    height: 300px;
+    width: 300px;
+}
+
+.first{
+    background-color: red;
+    padding: 30px;
+    margin: 25px 25px 0 0 ;
+    border: 10px solid black;
+}
+.second{
+    background-color: green;
+    margin: 0 5px 0 380px;
+    padding: 15px;
+    border: 15px solid black;
+    
+}
+
+.third{
+    background-color: yellow;
+    margin: 0 25px 0 740px;
+    border: 3px solid black;
+}
+
+
+
